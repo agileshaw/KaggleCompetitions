@@ -8,12 +8,12 @@ Usage
 ---
 
 1. Clone the project
-2. Download the [dataset](https://www.kaggle.com/meowmeowmeowmeowmeow/gtsrb-german-traffic-sign) into the root directory of this project
+2. Download and unzip the [dataset](https://www.kaggle.com/meowmeowmeowmeowmeow/gtsrb-german-traffic-sign) into the root directory of this project
 3. Make sure all the necessary libraries and dependencies are installed
 ```sh
 pip3 install --update numpy scikit-image scikit-learn tensorflow
 ```
 4. Run script
 ```sh
-python3 dnn.py -d dataset_dir_path -m path_to_save_model [-w path_to_save_weights_bias]
+python3 dnn.py -d dataset_dir_path [-m path_to_save_model] [-w path_to_save_weights_bias]
 ```
